@@ -1,0 +1,59 @@
+.Header {
+    position: relative;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 4rem !important;
+    border: 1px solid blue !important;
+    background: linear-gradient(95.98deg, #171A29 1.6%, rgba(43, 51, 92, 0.75) 100%);
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 60px !important;
+    color: white;
+}
+
+.Header-Logo {
+    width: 80px !important;
+    padding-left: 24px;
+}
+
+.Header>:nth-child(2) {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: 3px !important;
+    gap: 1rem;
+}
+
+.Header>:nth-child(3) {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: 3px !important;
+    gap: 1rem;
+}
+
+.Header>:nth-child(4) {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: 3px !important;
+    gap: 1rem;
+}
+
+.Select-input {
+    background: linear-gradient(98.16deg, #FFFFFF -136.53%, rgba(235, 240, 242, 0) 104.9%);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.04));
+    border-radius: 24px;
+    color: white;
+    width: 225px;
+    text-align: center;
+}
+
+.option {
+    background-color: rgba(235, 240, 242, 0) !important;
+}
+
+.Header-Logout {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 82rem;
+    padding-top: 8px !important;
+    cursor: pointer;
+}
